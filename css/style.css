@@ -67,6 +67,10 @@ background-color: var(--light-bg);
     align-items: center;
 }
 
+.raw-rev {
+    flex-flow: row-reverse wrap;
+}
+
 .button-layout {
     border-radius: 20px;
     padding: 0.8rem;
@@ -102,7 +106,6 @@ nav {
     max-width: 800px;
     padding: 1rem;
     margin: 0 auto;
-    line-height: 1.5rem;
 }
 
 h1, h2 {
@@ -110,12 +113,16 @@ h1, h2 {
     margin-bottom: 2rem;
 }
 
+p {
+    line-height: 1.5rem;
+}
+
 .button-box {
     padding-top: 2rem;
 }
 
 .text-box{
-    width: 45%;
+    width: 40%;
 }
 
 .image-box{
