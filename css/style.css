@@ -17,5 +17,51 @@
 
 body {
     font-family: Helvetica, sans-serif;
-    background-color: var(--dark-text);
+}
+
+header {
+    background-color: var(--bg-header);
+}
+
+main {
+    background-color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--bg-footer);
+    color: var(--primary-color);
+}
+
+.d-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    max-width: 1200px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.d-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 50%;
+}
+
+.center-container {
+    max-width: 1200px;
+    padding: 1rem;
+    margin: 0 auto;
 }
