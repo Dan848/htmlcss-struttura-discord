@@ -23,10 +23,6 @@ header {
     background-color: var(--bg-header);
 }
 
-main {
-    background-color: var(--primary-color);
-}
-
 .d-flex {
     display: flex;
     flex-flow: row wrap;
@@ -48,6 +44,22 @@ main {
     background-color: var(--bg-footer);
 }
 
+.bg-light {
+background-color: var(--light-bg);
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.light-text {
+    color: var(--primary-color);
+}
+
+.dark-text {
+    color: var(--dark-text);
+}
+
 .d-flex {
     display: flex;
     flex-flow: row wrap;
@@ -56,9 +68,8 @@ main {
 }
 
 .button-layout {
-    background-color: var(--light-bg);
     border-radius: 20px;
-    padding: 0.6rem;
+    padding: 0.8rem;
 }
 
 ul {
@@ -87,8 +98,26 @@ nav {
     color: var(--primary-color);
 }
 
-.padding-top-bot {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+.jumbo-container {
+    max-width: 800px;
+    padding: 1rem;
+    margin: 0 auto;
+    line-height: 1.5rem;
 }
 
+h1, h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.button-box {
+    padding-top: 2rem;
+}
+
+.text-box{
+    width: 45%;
+}
+
+.image-box{
+    width: 55%;
+}
