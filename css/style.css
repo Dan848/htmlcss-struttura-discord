@@ -1,0 +1,21 @@
+/*Reset Css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Color styles */
+--primary-color: #FFFFFF;
+--dark-text: #000000;
+--bg-header: #255EE9;
+--light-bg: #7289DA;
+--bg-footer: #23272A;
+--bg-section: #F6F6F6;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: var(--dark-text);
+}
